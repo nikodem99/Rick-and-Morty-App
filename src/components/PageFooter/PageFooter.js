@@ -4,7 +4,7 @@ import './PageFooter.scss';
 export function PageFooter() {
   return (
     <footer className="PageFooter">
-      footer
+      Create by Nikodem
     </footer>
   );
 }

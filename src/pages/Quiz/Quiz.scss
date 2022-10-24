@@ -1,6 +1,77 @@
-.QuizSpan {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    margin-left: 10
+.App {
+    text-align: center;
+    
+ .question-card {
+    /* Center the div  */
+    margin: 0 auto;
+  
+  
+    /* Dimensions  */
+    width: 90%; /* Can be in percentage also. */
+    height: auto;
+  
+    /* Visual  */
+    background-color: gray;
+    padding: 60px;
+    width: 50%;
+    border-radius: 50px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-top: 10px;
+    margin-left: 290px;
+    width: 30%;
+    background-color: darkgray;
+    padding: 25px;
+    border: 3px solid white;
+    border-radius: 500px;
+    font-size: 20px;
+   }
+  
+  .question-text {
+    padding: 25px;
+    color: darkblue;
+    font-size: 24px;
+    margin-top: -20px;
+  }
+  
+  /* Final Results  */
+  
+  .final-results {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 50%; /* Can be in percentage also. */
+    height: auto;
+    margin-top: 64px;
+  
+    /* Visual  */
+    background-color: rgb(128, 128, 128);
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 14px;
+  }
 }

@@ -4,6 +4,7 @@ import { Home } from '../../pages/Home';
 import { Quiz } from '../../pages/Quiz';
 import { About } from '../../pages/About';
 import { Layout } from '../Layout';
+import "/variables.scss"
 
 export function App() {
   return (
