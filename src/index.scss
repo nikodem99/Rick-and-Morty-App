@@ -1,7 +1,11 @@
 @import "/variables.scss";
+@font-face {
+    font-family: fontRick;
+    src: url(./fonts/get_schwifty.ttf);
+}
 
 :root {
-  font-family: Georgia;
+font-family: fontRick;
   
 }
 

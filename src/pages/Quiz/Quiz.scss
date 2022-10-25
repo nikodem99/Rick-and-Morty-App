@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    margin-top: -350px;
     
  .question-card {
     /* Center the div  */
@@ -7,13 +8,13 @@
   
   
     /* Dimensions  */
-    width: 90%; /* Can be in percentage also. */
+    width: auto; /* Can be in percentage also. */
     height: auto;
   
     /* Visual  */
-    background-color: gray;
-    padding: 60px;
-    width: 50%;
+    background-color: rgb(128, 128, 128, 0.9);
+    padding: 100px;
+    width: auto;
     border-radius: 50px;
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
@@ -22,24 +23,34 @@
   
   ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hoverUl:hover {
+    background-color: red;
   }
   
   li {
     margin-top: 10px;
-    margin-left: 290px;
-    width: 30%;
+    margin-left: 90px;
+    width: 300px;
     background-color: darkgray;
     padding: 25px;
     border: 3px solid white;
     border-radius: 500px;
     font-size: 20px;
-   }
+  }
   
   .question-text {
     padding: 25px;
     color: darkblue;
     font-size: 24px;
     margin-top: -20px;
+  }
+
+  .questionOut {
+    background-color: red;
   }
   
   /* Final Results  */
@@ -54,7 +65,7 @@
     margin-top: 64px;
   
     /* Visual  */
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(219, 2, 2);
     padding: 16px;
     border-radius: 16px;
     color: white;
@@ -63,15 +74,32 @@
   }
   
   button {
-    background-color: red; /* Green */
+    background-color: green; /* Green */
     border: none;
     color: white;
-    padding: 16px 24px;
+    padding: 26px;
+    margin-top: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 14px;
   }
+
+  .rickH1 {
+    background-color: red;
+  }
+
+  .score {
+    margin-top: -10px;
+    background-color: red;
+  }
+
+
+  .dancingRickQuiz {
+    margin-bottom: -250px;
+    margin-left: 1550px;
+}
+
 }
