@@ -13,7 +13,7 @@ export function Home() {
     </div>
     <div className="containerQuiz">
     <h1 className="portalQuiz">Quiz</h1>
-      <a href="../quiz"><img className="portalSecound" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="350px" height="350px"  /></a>
+      <a href="../quizforname"><img className="portalSecound" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="350px" height="350px"  /></a>
     </div>
     <button title="Show Answer" onProgress={() => setShowValue(!showValue)}/>
     <div>

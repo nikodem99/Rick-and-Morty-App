@@ -24,4 +24,13 @@
       text-align: center;
       text-transform: uppercase;
     }
+
+    .Menu__item {
+      background-color: red;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      font-family: fontRick;
+
+    }
 }

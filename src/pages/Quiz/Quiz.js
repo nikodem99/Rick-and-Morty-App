@@ -6,6 +6,7 @@ export function Quiz() {
   const [showResults, setShowResults] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
+  
 
   const questions = [
     {
@@ -135,7 +136,7 @@ export function Quiz() {
       {showResults ? (
         /* 4. Final Results */
         <div className="final-results">
-          <h1>Final Results</h1>
+          <h1>Your final results {localStorage.getItem(`rickName`)} </h1>
           <h2 className='questionOf'>
             {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%)
@@ -163,10 +164,10 @@ export function Quiz() {
         </div>
       )}
       <div>
-      <img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="350px"  />
+      <a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="350px" /></a>
     </div>
     </div>
   );
 }
 
-export default Quiz
+export default Quiz;

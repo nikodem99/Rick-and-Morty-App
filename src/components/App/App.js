@@ -4,6 +4,7 @@ import { Home } from '../../pages/Home';
 import { Quiz } from '../../pages/Quiz';
 import { About } from '../../pages/About';
 import { Layout } from '../Layout';
+import { QuizForName } from "../../pages/QuizForName";
 import "/variables.scss"
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
           <Route path="/"        element={<Home />} />
           <Route path="/quiz"    element={<Quiz />} />
           <Route path="/about" element={<About />} />
+          <Route path="/quizforname" element={<QuizForName />} />
         </Route>
       </Routes>
     </Router>
