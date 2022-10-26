@@ -1,20 +1,69 @@
-.About {
-  background-color: rgb(255, 0, 0, 0.5);
-  margin-top: -400px;
+.textAbout {
+  width: 550px; 
+  font-size: 65px;
   text-align: center;
-  padding: 10px;
+  margin-top: -450px;
+  margin-left: 700px;
   font-family: fontRick;
+  color: rgb(66, 180, 202,);
+  background-color: #bfde42;
+  border-radius: 50px;
+  
 }
 
 .textFirstAbout {
-  background-color: rgb(255, 0, 0, 0.5);
+  background-color: rgb(83, 171, 238, 0.7) ;
+  border-radius: 50px;
+  width: 90%;
+  color: #bfde42;                                                         
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 10px;
   text-align: center;
-  width: auto;
-  height: auto;
-  font-family: fontRick;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 
-.gifRick {
-  padding: 5px;
-  
-} 
+.dancingRickQuiz {
+  margin-bottom: -400px;
+  margin-left: 800px;
+}
+
+.portal {
+  margin-bottom: -400px;
+  margin-top: 40px;
+  margin-left: 250px;
+}
+
+.textPortal {
+  background-color: #bfde42; 
+  border-radius: 50px;
+  width: 660px;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: rgb(83, 171, 238) ;
+  font-family: fontRick;
+  font-size: 35px;
+  text-align: center;
+}
+
+.portalNext {
+  margin-bottom: -400px;
+  margin-top: 40px;
+  margin-left: 1350px;
+}
+
+.textPortalNext {
+  background-color: #bfde42; 
+  border-radius: 50px;
+  width: 760px;
+  text-align: center;
+  margin-left: 1100px;
+  margin-top: 45px;
+  color: rgb(83, 171, 238) ;
+  font-family: fontRick;
+  font-size: 35px;
+}
+
+

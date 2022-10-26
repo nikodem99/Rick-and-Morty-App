@@ -101,11 +101,7 @@ export function Quiz() {
     },
   ];
 
-  // Helper Functions
-
-  /* A possible answer was clicked */
   const optionClicked = (isCorrect) => {
-    // Increment the score
     if (isCorrect) {
       setScore(score + 1);
     }
@@ -117,7 +113,7 @@ export function Quiz() {
     }
   };
 
-  /* Resets the game back to default */
+
   const restartGame = () => {
     setScore(0);
     setCurrentQuestion(0);
@@ -126,17 +122,12 @@ export function Quiz() {
 
   return (
     <div className="App">
-      {/* 1. Header  */}
+      <div className="rickH2"></div> 
       <h1 className="rickH1">Rick and Morty Quiz</h1> 
-
-      {/* 2. Current Score  */}
       <h2 className="score">Score: {score}</h2>
-
-      {/* 3. Show results or show the question game  */}
       {showResults ? (
-        /* 4. Final Results */
         <div className="final-results">
-          <h1>Your final results {localStorage.getItem(`rickName`)} </h1>
+          <h1 className="finalName">Your final results {localStorage.getItem(`rickName`)} </h1>
           <h2 className='questionOf'>
             {score} out of {questions.length} correct - (
             {(score / questions.length) * 100}%)
@@ -164,7 +155,7 @@ export function Quiz() {
         </div>
       )}
       <div>
-      <a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="350px" /></a>
+      <a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="250px" /></a>
     </div>
     </div>
   );

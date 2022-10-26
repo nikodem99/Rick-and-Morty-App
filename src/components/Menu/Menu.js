@@ -4,10 +4,10 @@ import './Menu.scss';
 
 export function Menu() {
   return (
-    <ul className="Menu">
-      <li><NavLink className="Menu__item" to="/">Home</NavLink></li>
-      <li><NavLink className="Menu__item" to="/quizforname">Quiz</NavLink></li>
-      <li><NavLink className="Menu__item" to="/about">About</NavLink></li>
-    </ul>
+    <div className="Menu">
+      <i><NavLink className="Menu__item" to="/">Home</NavLink></i>
+      <i><NavLink className="Menu__item" to="/quizforname">Quiz</NavLink></i>
+      <i><NavLink className="Menu__item" to="/about">About</NavLink></i>
+    </div>
   );
 }

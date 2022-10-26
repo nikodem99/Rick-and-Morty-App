@@ -1,74 +1,76 @@
 .App {
     text-align: center;
-    margin-top: -350px;
+    margin-top: -190px;
     
  .question-card {
-    /* Center the div  */
+  
     margin: 0 auto;
   
   
-    /* Dimensions  */
-    width: auto; /* Can be in percentage also. */
+  
+   
+    width: auto; 
     height: auto;
   
-    /* Visual  */
-    background-color: rgb(128, 128, 128, 0.9);
+  
     padding: 100px;
     width: auto;
     border-radius: 50px;
     color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   }
   
   ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    cursor: default;
+    font-family: fontRick;
 
   }
 
   .hoverUl:hover {
-    background-color: red;
+    background-color: #bfde42;
   }
   
   li {
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 90px;
     width: 300px;
-    background-color: darkgray;
+    background-color: rgb(83, 171, 238,);
     padding: 25px;
     border: 3px solid white;
     border-radius: 500px;
     font-size: 20px;
     cursor: default;
+    
   }
   
   .question-text {
     padding: 25px;
-    color: darkblue;
-    font-size: 24px;
+    color:  #bfde42;
+    background-color: rgb(83, 171, 238) ;
+    font-size: 35px;
     margin-top: -20px;
+    font-family: fontRick
   }
 
   .questionOut {
-    background-color: red;
+    background-color: rgb(83, 171, 238) ;
+    font-family: fontRick;
+    font-size: 30px;
+    color: white;
+    
+    
   }
   
-  /* Final Results  */
+
   
   .final-results {
-    /* Center the div  */
+
     margin: 0 auto;
-  
-    /* Dimensions  */
-    width: 50%; /* Can be in percentage also. */
+    width: 50%;
     height: auto;
     margin-top: 64px;
-  
-    /* Visual  */
-    background-color: rgb(219, 2, 2);
+    background-color: rgb(83, 171, 238) ;
     padding: 16px;
     border-radius: 16px;
     color: white;
@@ -77,9 +79,9 @@
   }
   
   button {
-    background-color: green; /* Green */
+    background-color:#bfde42; 
     border: none;
-    color: white;
+    color:white; 
     padding: 26px;
     margin-top: 15px;
     text-align: center;
@@ -88,21 +90,46 @@
     font-size: 25px;
     font-weight: bold;
     border-radius: 14px;
+    font-family: fontRick;
   }
 
   .rickH1 {
-    background-color: red;
+    background-color: rgb(83, 171, 238) ;
+    color:#bfde42;  
+    font-family: fontRick;
+    margin-bottom: -5px;
+    width: 100%;
   }
 
   .score {
-    margin-top: -10px;
-    background-color: red;
+    margin-top: 1px;
+    background-color: rgb(83, 171, 238) ;
+    color: white;   
+    font-family: fontRick;
+    width: 100%;
   }
 
 
   .dancingRickQuiz {
-    margin-bottom: -250px;
-    margin-left: 1550px;
+    margin-bottom: -150px;
+    margin-top: -100px;
+    margin-left: 1650px;
+    
+}
+
+.rickH2 {
+  background-color: rgb(83, 171, 238,) ;
+  height: 15px;
+  width: 100%;
+}
+
+.finalName {
+  font-family: fontRick;
+  color: #bfde42;
+}
+
+.questionOf {
+  font-family: fontRick;
 }
 
 }

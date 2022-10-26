@@ -3,15 +3,22 @@ import "./About.scss"
 
 export function About() {
   return (
-    <div>
-    <h1 className="About">About Rick and Morty</h1>
-    <p className="textFirstAbout">Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. It is distributed internationally by Warner Bros. Domestic Television. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often travelling to other planets and dimensions through portals and on Rick's flying saucer. The general concept of Rick and Morty relies on two conflicting scenarios: domestic family drama, and an alcoholic grandfather dragging his grandson into high jinks.
-
-Roiland voices the eponymous characters, with Chris Parnell, Spencer Grammer, and Sarah Chalke voicing the rest of Rick and Morty's family. The series originated from an animated short parody film of Back to the Future created by Roiland for Channel 101, a short-film festival cofounded by Harmon. Since its debut, the series has received critical acclaim for its originality, creativity, and humor. They have been nominated for three Primetime Emmy Awards for Outstanding Animated Program and won the award in 2018 and 2020. They've also received two Annie Awards. The series has several times been the most viewed television comedy of adults. The popularity of Rick and Morty has made it a billion-dollar merchandising and media franchise.
-
-The fifth season premiered on June 20, 2021, and consisted of ten episodes. The sixth season started airing on September 4, 2022,[2] and is currently in hiatus after the release of the season's sixth episode. A seventh season was confirmed as part of a long-term deal with Cartoon Network that ordered 70 new episodes.
+    <div className="About">
+    <h1 className="textAbout">Welcome to about</h1>
+<p className="textFirstAbout">The show revolves around the adventures of the members of the Smith household, which consists of parents Jerry and Beth, their children Summer and Morty, and Beth's father, Rick Sanchez, who lives with them as a guest. According to Justin Roiland, the family lives outside of Seattle, Washington.The adventures of Rick and Morty, however, take place across an infinite number of realities, with the characters travelling to other planets and dimensions through portals and Rick's flying saucer.Rick is an eccentric and alcoholic mad scientist, who eschews many ordinary conventions such as school, marriage, love, and family. He frequently goes on adventures with his 14-year-old grandson, Morty, a kind-hearted but easily distressed boy, whose naïve but grounded moral compass plays counterpoint to Rick's Machiavellian ego. Morty's 17-year-old sister, Summer, is a more conventional teenager who worries about improving her status among her peers and sometimes follows Rick and Morty on their adventures. The kids' mother, Beth, is a generally level-headed person and assertive force in the household, though self-conscious about her professional role as a horse surgeon. She is dissatisfied with her marriage to Jerry, a simple-minded and insecure person, who disapproves of Rick's influence over his family.
+Different versions of the character inhabit other dimensions throughout the show's multiverse and their personal characteristics can vary from one reality to another.
 </p>
-<img className="gifRick" src="https://media3.giphy.com/media/tJqyalvo9ahykfykAj/giphy.gif?cid=ecf05e470zh374zll1okimt879uqfqwwxykhvxzktusgb7md&rid=giphy.gif&ct=g" alt="rick and morty" width="" height=""/>
-  </div>
+<div>
+<a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="300px" /></a>
+</div>
+<p className="textPortal">Go to the portal if you want to know more</p>
+<div className="portal">
+<a href="https://rickandmorty.fandom.com/wiki/Rickipedia"><img className="portalFirst" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="300px" height="300px"  /></a>
+</div>
+<p className="textPortalNext">Watch the announcement of the new season</p>
+<div className="portalNext">
+<a href="https://www.youtube.com/watch?v=jerFRSQW9g8"><img className="portalFirst" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="300px" height="300px"  /></a>
+</div>
+</div>
   )
 }
