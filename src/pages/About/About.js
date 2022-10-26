@@ -9,7 +9,7 @@ export function About() {
 Different versions of the character inhabit other dimensions throughout the show's multiverse and their personal characteristics can vary from one reality to another.
 </p>
 <div>
-<a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif" width="300px" /></a>
+<a href="https://cdn.dribbble.com/users/5751927/screenshots/14417011/media/67451377d177b05cff2a7d5fe15a4084.png"><img className="dancingRickQuiz" src="https://media4.giphy.com/media/ZYWv9qRQPomHSmrpGd/giphy.gif?cid=ecf05e47sxcqluirgz3vvb6odvuwk4copj26fglzzrnab4yd&rid=giphy.gif&ct=s" width="350px" /></a>
 </div>
 <p className="textPortal">Go to the portal if you want to know more</p>
 <div className="portal">
@@ -17,7 +17,7 @@ Different versions of the character inhabit other dimensions throughout the show
 </div>
 <p className="textPortalNext">Watch the announcement of the new season</p>
 <div className="portalNext">
-<a href="https://www.youtube.com/watch?v=jerFRSQW9g8"><img className="portalFirst" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="300px" height="300px"  /></a>
+<a href="https://www.youtube.com/watch?v=jerFRSQW9g8&t=2s"><img className="portalFirst" src="https://media.tenor.com/BgR83Df82t0AAAAi/portal-rick-and-morty.gif" width="300px" height="300px"  /></a>
 </div>
 </div>
   )

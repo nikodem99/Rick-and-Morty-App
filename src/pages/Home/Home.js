@@ -17,7 +17,7 @@ export function Home() {
     </div>
     <button title="Show Answer" onProgress={() => setShowValue(!showValue)}/>
     <div>
-     <a href="https://www.youtube.com/watch?v=5hq-TMAdCEw"><img className="bittleRick" src="https://media1.giphy.com/media/da0NgyClHpA4jqUoav/giphy.gif?cid=790b761131478643622aeea1b76f8470c0fca504ed3f9a16&rid=giphy.gif&ct=s" width="500px"  /></a>
+     <a href="https://www.youtube.com/watch?v=5hq-TMAdCEw"><img className="bittleRick" src="https://media1.giphy.com/media/da0NgyClHpA4jqUoav/giphy.gif?cid=790b761131478643622aeea1b76f8470c0fca504ed3f9a16&rid=giphy.gif&ct=s" width="480px"  /></a>
     </div>
   </div>
   
